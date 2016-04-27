@@ -42,6 +42,8 @@ class Parameters {
     double nInit = 0;
     double nBound = 0;
 
+    double generateGaussianNoise(double variance);
+
 
 public:
 
