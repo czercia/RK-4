@@ -75,6 +75,17 @@ public:
     Complex psiInitial(double x);
 
     void psiBoundary(Complex *y, VecComp &V, int y_length);
+
+
+    double nInitial(double x);
+
+    void nBoundary(double *n, std::vector<double> &V, int n_length);
+
+    double DX();
+
+    double P(double x);
+
+    int divide();
 //getters
 
     double getT0() const {
